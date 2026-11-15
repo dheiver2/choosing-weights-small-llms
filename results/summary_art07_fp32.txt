@@ -1,0 +1,40 @@
+fp32, 40 blocos de validação (0-39) e 100 de teste (40-139); NLL médio por token (nats)
+single 143k: val 3.6614 test 3.6134
+single 140k: val 3.6362 test 3.5933
+single 130k: val 3.6300 test 3.5933
+single 120k: val 3.6287 test 3.5966
+single 110k: val 3.5895 test 3.5580
+single 100k: val 3.5832 test 3.5518
+avg k=1 (143k..143k): val 3.6614 test 3.6134
+avg k=2 (143k..140k): val 3.6195 test 3.5728
+avg k=3 (143k..130k): val 3.6012 test 3.5591
+avg k=4 (143k..120k): val 3.5959 test 3.5552
+avg k=5 (143k..110k): val 3.5872 test 3.5495
+avg k=6 (143k..100k): val 3.6473 test 3.6115
+melhor candidato na validação entre 6 singles + médias k=2..6: single_100000; melhor média na validação: avg_k5
+avg k=2 - último (143k), teste: -0.0406 [-0.0433, -0.0378] p=0.000
+avg k=3 - último (143k), teste: -0.0543 [-0.0574, -0.0511] p=0.000
+avg k=4 - último (143k), teste: -0.0582 [-0.0617, -0.0547] p=0.000
+avg k=5 - último (143k), teste: -0.0639 [-0.0677, -0.0602] p=0.000
+avg k=6 - último (143k), teste: -0.0019 [-0.0071, +0.0034] p=0.459
+single 140k - último, teste: -0.0201 [-0.0252, -0.0150] p=0.000
+single 130k - último, teste: -0.0201 [-0.0256, -0.0141] p=0.000
+single 120k - último, teste: -0.0167 [-0.0218, -0.0117] p=0.000
+single 110k - último, teste: -0.0554 [-0.0606, -0.0502] p=0.000
+single 100k - último, teste: -0.0616 [-0.0678, -0.0551] p=0.000
+melhor single na validação (baseline pré-registrado, melhor original): 100k
+avg_k5 - melhor single (100k), teste: -0.0023 [-0.0083, +0.0034] p=0.417
+candidato escolhido na validação (single_100000) - último, teste: -0.0616 [-0.0678, -0.0551] p=0.000
+--- cada média contra o melhor MEMBRO dela (melhor single do conjunto por NLL de teste; descritivo) ---
+avg k=2 - single 140k (melhor membro), teste: -0.0205 [-0.0234, -0.0176] p=0.000
+avg k=3 - single 140k (melhor membro), teste: -0.0342 [-0.0376, -0.0308] p=0.000
+avg k=4 - single 140k (melhor membro), teste: -0.0381 [-0.0415, -0.0347] p=0.000
+avg k=5 - single 110k (melhor membro), teste: -0.0085 [-0.0123, -0.0048] p=0.000
+perplexidade (exp NLL, teste): último 37.1; melhor single 34.9; avg5 34.8
+--- sensibilidade à precisão: o mesmo cálculo em bf16 (artefato) ---
+bf16 avg k=1: test 4.6074 (fp32: 3.6134); diferença bf16-fp32 +0.9940
+bf16 avg k=2: test 4.5483 (fp32: 3.5728); diferença bf16-fp32 +0.9755
+bf16 avg k=3: test 4.5082 (fp32: 3.5591); diferença bf16-fp32 +0.9490
+bf16 avg k=4: test 4.4810 (fp32: 3.5552); diferença bf16-fp32 +0.9258
+bf16 avg k=5: test 4.4412 (fp32: 3.5495); diferença bf16-fp32 +0.8917
+bf16 avg k=6: test 4.1583 (fp32: 3.6115); diferença bf16-fp32 +0.5468

@@ -1,0 +1,379 @@
+{
+ "2306.01708": {
+  "title": "TIES-Merging: Resolving Interference When Merging Models",
+  "authors": [
+   "Prateek Yadav",
+   "Derek Tam",
+   "Leshem Choshen",
+   "Colin Raffel"
+  ],
+  "n_authors": 5,
+  "year": "2023"
+ },
+ "1912.05671": {
+  "title": "Linear Mode Connectivity and the Lottery Ticket Hypothesis",
+  "authors": [
+   "Jonathan Frankle",
+   "Gintare Karolina Dziugaite",
+   "Daniel M. Roy",
+   "Michael Carbin"
+  ],
+  "n_authors": 4,
+  "year": "2019"
+ },
+ "2111.09832": {
+  "title": "Merging Models with Fisher-Weighted Averaging",
+  "authors": [
+   "Michael Matena",
+   "Colin Raffel"
+  ],
+  "n_authors": 2,
+  "year": "2021"
+ },
+ "2109.01903": {
+  "title": "Robust fine-tuning of zero-shot models",
+  "authors": [
+   "Mitchell Wortsman",
+   "Gabriel Ilharco",
+   "Jong Wook Kim",
+   "Mike Li"
+  ],
+  "n_authors": 11,
+  "year": "2021"
+ },
+ "2209.04836": {
+  "title": "Git Re-Basin: Merging Models modulo Permutation Symmetries",
+  "authors": [
+   "Samuel K. Ainsworth",
+   "Jonathan Hayase",
+   "Siddhartha Srinivasa"
+  ],
+  "n_authors": 3,
+  "year": "2022"
+ },
+ "2212.09849": {
+  "title": "Dataless Knowledge Fusion by Merging Weights of Language Models",
+  "authors": [
+   "Xisen Jin",
+   "Xiang Ren",
+   "Daniel Preotiuc-Pietro",
+   "Pengxiang Cheng"
+  ],
+  "n_authors": 4,
+  "year": "2022"
+ },
+ "2212.04089": {
+  "title": "Editing Models with Task Arithmetic",
+  "authors": [
+   "Gabriel Ilharco",
+   "Marco Tulio Ribeiro",
+   "Mitchell Wortsman",
+   "Suchin Gururangan"
+  ],
+  "n_authors": 7,
+  "year": "2022"
+ },
+ "2203.05482": {
+  "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+  "authors": [
+   "Mitchell Wortsman",
+   "Gabriel Ilharco",
+   "Samir Yitzhak Gadre",
+   "Rebecca Roelofs"
+  ],
+  "n_authors": 11,
+  "year": "2022"
+ },
+ "1803.05407": {
+  "title": "Averaging Weights Leads to Wider Optima and Better Generalization",
+  "authors": [
+   "Pavel Izmailov",
+   "Dmitrii Podoprikhin",
+   "Timur Garipov",
+   "Dmitry Vetrov"
+  ],
+  "n_authors": 5,
+  "year": "2018"
+ },
+ "2311.03099": {
+  "title": "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch",
+  "authors": [
+   "Le Yu",
+   "Bowen Yu",
+   "Haiyang Yu",
+   "Fei Huang"
+  ],
+  "n_authors": 5,
+  "year": "2023"
+ },
+ "2304.01373": {
+  "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+  "authors": [
+   "Stella Biderman",
+   "Hailey Schoelkopf",
+   "Quentin Anthony",
+   "Herbie Bradley"
+  ],
+  "n_authors": 13,
+  "year": "2023"
+ },
+ "2408.07666": {
+  "title": "Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities",
+  "authors": [
+   "Enneng Yang",
+   "Li Shen",
+   "Guibing Guo",
+   "Xingwei Wang"
+  ],
+  "n_authors": 7,
+  "year": "2024"
+ },
+ "2502.02737": {
+  "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+  "authors": [
+   "Loubna Ben Allal",
+   "Anton Lozhkov",
+   "Elie Bakouch",
+   "Gabriel Martín Blázquez"
+  ],
+  "n_authors": 22,
+  "year": "2025"
+ },
+ "1803.05457": {
+  "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+  "authors": [
+   "Peter Clark",
+   "Isaac Cowhey",
+   "Oren Etzioni",
+   "Tushar Khot"
+  ],
+  "n_authors": 7,
+  "year": "2018"
+ },
+ "2307.13269": {
+  "title": "LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition",
+  "authors": [
+   "Chengsong Huang",
+   "Qian Liu",
+   "Bill Yuchen Lin",
+   "Tianyu Pang"
+  ],
+  "n_authors": 6,
+  "year": "2023"
+ },
+ "1905.07830": {
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+   "Rowan Zellers",
+   "Ari Holtzman",
+   "Yonatan Bisk",
+   "Ali Farhadi"
+  ],
+  "n_authors": 5,
+  "year": "2019"
+ },
+ "2403.13257": {
+  "title": "Arcee's MergeKit: A Toolkit for Merging Large Language Models",
+  "authors": [
+   "Charles Goddard",
+   "Shamane Siriwardhana",
+   "Malikeh Ehghaghi",
+   "Luke Meyers"
+  ],
+  "n_authors": 8,
+  "year": "2024"
+ },
+ "2412.15115": {
+  "title": "Qwen2.5 Technical Report",
+  "authors": [
+   " Qwen",
+   " :",
+   "An Yang",
+   "Baosong Yang"
+  ],
+  "n_authors": 44,
+  "year": "2024"
+ },
+ "1907.10641": {
+  "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+  "authors": [
+   "Keisuke Sakaguchi",
+   "Ronan Le Bras",
+   "Chandra Bhagavatula",
+   "Yejin Choi"
+  ],
+  "n_authors": 4,
+  "year": "2019"
+ },
+ "2403.13187": {
+  "title": "Evolutionary Optimization of Model Merging Recipes",
+  "authors": [
+   "Takuya Akiba",
+   "Makoto Shing",
+   "Yujin Tang",
+   "Qi Sun"
+  ],
+  "n_authors": 5,
+  "year": "2024"
+ },
+ "2306.03241": {
+  "title": "Early Weight Averaging meets High Learning Rates for LLM Pre-training",
+  "authors": [
+   "Sunny Sanyal",
+   "Atula Neerkaje",
+   "Jean Kaddour",
+   "Abhishek Kumar"
+  ],
+  "n_authors": 5,
+  "year": "2023"
+ },
+ "2310.02575": {
+  "title": "AdaMerging: Adaptive Model Merging for Multi-Task Learning",
+  "authors": [
+   "Enneng Yang",
+   "Zhenyi Wang",
+   "Li Shen",
+   "Shiwei Liu"
+  ],
+  "n_authors": 7,
+  "year": "2023"
+ },
+ "2212.10445": {
+  "title": "Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization",
+  "authors": [
+   "Alexandre Ramé",
+   "Kartik Ahuja",
+   "Jianyu Zhang",
+   "Matthieu Cord"
+  ],
+  "n_authors": 6,
+  "year": "2022"
+ },
+ "2306.04488": {
+  "title": "Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards",
+  "authors": [
+   "Alexandre Ramé",
+   "Guillaume Couairon",
+   "Mustafa Shukor",
+   "Corentin Dancette"
+  ],
+  "n_authors": 7,
+  "year": "2023"
+ },
+ "2410.03617": {
+  "title": "What Matters for Model Merging at Scale?",
+  "authors": [
+   "Prateek Yadav",
+   "Tu Vu",
+   "Jonathan Lai",
+   "Alexandra Chronopoulou"
+  ],
+  "n_authors": 7,
+  "year": "2024"
+ },
+ "2411.00640": {
+  "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+  "authors": [
+   "Evan Miller"
+  ],
+  "n_authors": 1,
+  "year": "2024"
+ },
+ "2403.19390": {
+  "title": "Checkpoint Merging via Bayesian Optimization in LLM Pretraining",
+  "authors": [
+   "Deyuan Liu",
+   "Zecheng Wang",
+   "Bingning Wang",
+   "Weipeng Chen"
+  ],
+  "n_authors": 9,
+  "year": "2024"
+ },
+ "2409.12186": {
+  "title": "Qwen2.5-Coder Technical Report",
+  "authors": [
+   "Binyuan Hui",
+   "Jian Yang",
+   "Zeyu Cui",
+   "Jiaxi Yang"
+  ],
+  "n_authors": 24,
+  "year": "2024"
+ },
+ "1609.07843": {
+  "title": "Pointer Sentinel Mixture Models",
+  "authors": [
+   "Stephen Merity",
+   "Caiming Xiong",
+   "James Bradbury",
+   "Richard Socher"
+  ],
+  "n_authors": 4,
+  "year": "2016"
+ },
+ "1612.01474": {
+  "title": "Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles",
+  "authors": [
+   "Balaji Lakshminarayanan",
+   "Alexander Pritzel",
+   "Charles Blundell"
+  ],
+  "n_authors": 3,
+  "year": "2016"
+ },
+ "1902.10811": {
+  "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+  "authors": [
+   "Benjamin Recht",
+   "Rebecca Roelofs",
+   "Ludwig Schmidt",
+   "Vaishaal Shankar"
+  ],
+  "n_authors": 4,
+  "year": "2019"
+ },
+ "2310.04799": {
+  "title": "Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages",
+  "authors": [
+   "Shih-Cheng Huang",
+   "Pin-Zu Li",
+   "Yu-Chi Hsu",
+   "Kuang-Ming Chen"
+  ],
+  "n_authors": 8,
+  "year": "2023"
+ },
+ "1411.2664": {
+  "title": "Preserving Statistical Validity in Adaptive Data Analysis",
+  "authors": [
+   "Cynthia Dwork",
+   "Vitaly Feldman",
+   "Moritz Hardt",
+   "Toniann Pitassi"
+  ],
+  "n_authors": 6,
+  "year": "2014"
+ },
+ "2309.15698": {
+  "title": "Deep Model Fusion: A Survey",
+  "authors": [
+   "Weishi Li",
+   "Yong Peng",
+   "Miao Zhang",
+   "Liang Ding"
+  ],
+  "n_authors": 6,
+  "year": "2023"
+ },
+ "2305.12827": {
+  "title": "Task Arithmetic in the Tangent Space: Improved Editing of Pre-Trained Models",
+  "authors": [
+   "Guillermo Ortiz-Jimenez",
+   "Alessandro Favero",
+   "Pascal Frossard"
+  ],
+  "n_authors": 3,
+  "year": "2023"
+ }
+}

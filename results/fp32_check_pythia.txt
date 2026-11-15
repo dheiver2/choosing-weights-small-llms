@@ -1,0 +1,12 @@
+fp32 single 143000: val(0-39) 3.6614 test(40-139) 3.6134
+fp32 single 140000: val(0-39) 3.6362 test(40-139) 3.5933
+fp32 single 130000: val(0-39) 3.6300 test(40-139) 3.5933
+fp32 single 120000: val(0-39) 3.6287 test(40-139) 3.5966
+fp32 single 110000: val(0-39) 3.5895 test(40-139) 3.5580
+fp32 single 100000: val(0-39) 3.5832 test(40-139) 3.5518
+fp32 avg k=1: val 3.6614 test 3.6134
+fp32 avg k=2: val 3.6195 test 3.5728
+fp32 avg k=3: val 3.6012 test 3.5591
+fp32 avg k=4: val 3.5959 test 3.5552
+fp32 avg k=5: val 3.5872 test 3.5495
+fp32 avg k=6: val 3.6473 test 3.6115

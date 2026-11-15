@@ -1,0 +1,142 @@
+{
+ "1902.10811": [
+  "",
+  ""
+ ],
+ "1411.2664": [
+  "",
+  "Updated related work with recent developments"
+ ],
+ "1912.05671": [
+  "",
+  "Published in ICML 2020. This submission subsumes arXiv:1903.01611 (\"Stabilizing the Lottery Ticket Hypothesis\" and \"The Lottery Ticket Hypothesis at Scale\")"
+ ],
+ "2109.01903": [
+  "",
+  "CVPR 2022"
+ ],
+ "1803.05457": [
+  "",
+  "10 pages, 7 tables, 2 figures"
+ ],
+ "1905.07830": [
+  "",
+  "ACL 2019. Project page at https://rowanzellers.com/hellaswag"
+ ],
+ "1907.10641": [
+  "",
+  ""
+ ],
+ "1609.07843": [
+  "",
+  ""
+ ],
+ "1803.05407": [
+  "",
+  "Appears at the Conference on Uncertainty in Artificial Intelligence (UAI), 2018"
+ ],
+ "1612.01474": [
+  "",
+  "NIPS 2017"
+ ],
+ "2304.01373": [
+  "",
+  "Code at https://github.com/EleutherAI/pythia"
+ ],
+ "2306.03241": [
+  "",
+  "17 pages, 13 figures, presented at NeurIPs 2023 WANT workshop"
+ ],
+ "2306.01708": [
+  "",
+  "Published at NeurIPS 2023, 23 Pages, 13 Figures, 14 Tables"
+ ],
+ "2111.09832": [
+  "",
+  ""
+ ],
+ "2212.10445": [
+  "",
+  "24 pages, 10 tables, 21 figures"
+ ],
+ "2209.04836": [
+  "",
+  ""
+ ],
+ "2212.09849": [
+  "",
+  "ICLR 2023; The code is available at https://github.com/bloomberg/dataless-model-merging and https://github.com/AuCson/RegMean-LLama3-8B. Fixed typos"
+ ],
+ "2212.04089": [
+  "",
+  "In Proceedings of the 11th International Conference on Learning Representations (ICLR 2023)"
+ ],
+ "2203.05482": [
+  "",
+  "ICML 2022. The last three authors contributed equally"
+ ],
+ "2305.12827": [
+  "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+  ""
+ ],
+ "2310.02575": [
+  "",
+  "International Conference on Learning Representations (ICLR 2024)"
+ ],
+ "2310.04799": [
+  "",
+  "ACL 2024 camera-ready version"
+ ],
+ "2408.07666": [
+  "",
+  ""
+ ],
+ "2306.04488": [
+  "",
+  ""
+ ],
+ "2309.15698": [
+  "",
+  "46 pages"
+ ],
+ "2307.13269": [
+  "",
+  "COLM 2024"
+ ],
+ "2403.19390": [
+  "",
+  ""
+ ],
+ "2403.13257": [
+  "",
+  "11 pages, 4 figures"
+ ],
+ "2311.03099": [
+  "",
+  "Accepted at ICML 2024"
+ ],
+ "2403.13187": [
+  "Nat Mach Intell (2025)",
+  "Authors' submitted version before final edits. Published in Nature Machine Intelligence on January 27, 2025: https://www.nature.com/articles/s42256-024-00975-8"
+ ],
+ "2502.02737": [
+  "",
+  ""
+ ],
+ "2410.03617": [
+  "",
+  "20 Pages, 7 Figures, 4 Tables"
+ ],
+ "2411.00640": [
+  "",
+  "14 pages"
+ ],
+ "2412.15115": [
+  "",
+  ""
+ ],
+ "2409.12186": [
+  "",
+  ""
+ ]
+}

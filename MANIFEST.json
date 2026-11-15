@@ -1,0 +1,114 @@
+{
+  "models": {
+    "qwen25-05b": {
+      "repo": "Qwen/Qwen2.5-0.5B",
+      "revision": "main",
+      "sha": "060db6499f32faf8b98477b0a26969ef7d8b9987"
+    },
+    "qwen25-05b-instruct": {
+      "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "main",
+      "sha": "7ae557604adf67be50417f59c2c2f167def9a775"
+    },
+    "qwen25-coder-05b-instruct": {
+      "repo": "Qwen/Qwen2.5-Coder-0.5B-Instruct",
+      "revision": "main",
+      "sha": "ea3f2471cf1b1f0db85067f1ef93848e38e88c25"
+    },
+    "smollm2-360m": {
+      "repo": "HuggingFaceTB/SmolLM2-360M",
+      "revision": "main",
+      "sha": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49"
+    },
+    "smollm2-360m-instruct": {
+      "repo": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "revision": "main",
+      "sha": "a10cc1512eabd3dde888204e902eca88bddb4951"
+    },
+    "pythia160m-step143000": {
+      "repo": "EleutherAI/pythia-160m",
+      "revision": "step143000",
+      "sha": "b56d9bee36300031aeea723b73c4d62ac7fa71a2"
+    },
+    "pythia160m-step140000": {
+      "repo": "EleutherAI/pythia-160m",
+      "revision": "step140000",
+      "sha": "d846b982dba2296de3f7e4612929bf21483eef8b"
+    },
+    "pythia160m-step130000": {
+      "repo": "EleutherAI/pythia-160m",
+      "revision": "step130000",
+      "sha": "0b59d0757b8e89b8f5acb201425d1a9964ecf77f"
+    },
+    "pythia160m-step120000": {
+      "repo": "EleutherAI/pythia-160m",
+      "revision": "step120000",
+      "sha": "3df7d2c5532755f7022704e07dea87f35eeaf0e1"
+    },
+    "pythia160m-step110000": {
+      "repo": "EleutherAI/pythia-160m",
+      "revision": "step110000",
+      "sha": "8dbf3af771b5629b2ede5105f2f1dd1639a143f1"
+    },
+    "pythia160m-step100000": {
+      "repo": "EleutherAI/pythia-160m",
+      "revision": "step100000",
+      "sha": "c507d0e63f5a7a833b1b1866116a04cc3e74dc70"
+    }
+  },
+  "datasets": {
+    "arc_easy": {
+      "repo": "allenai/ai2_arc",
+      "config": "ARC-Easy",
+      "splits": {
+        "train": 2251,
+        "test": 2376,
+        "validation": 570
+      }
+    },
+    "arc_challenge": {
+      "repo": "allenai/ai2_arc",
+      "config": "ARC-Challenge",
+      "splits": {
+        "train": 1119,
+        "test": 1172,
+        "validation": 299
+      }
+    },
+    "hellaswag": {
+      "repo": "Rowan/hellaswag",
+      "config": null,
+      "splits": {
+        "train": 39905,
+        "test": 10003,
+        "validation": 10042
+      }
+    },
+    "winogrande": {
+      "repo": "allenai/winogrande",
+      "config": "winogrande_xl",
+      "splits": {
+        "train": 40398,
+        "test": 1767,
+        "validation": 1267
+      }
+    },
+    "gsm8k": {
+      "repo": "openai/gsm8k",
+      "config": "main",
+      "splits": {
+        "train": 7473,
+        "test": 1319
+      }
+    },
+    "wikitext2": {
+      "repo": "Salesforce/wikitext",
+      "config": "wikitext-2-raw-v1",
+      "splits": {
+        "test": 4358,
+        "train": 36718,
+        "validation": 3760
+      }
+    }
+  }
+}

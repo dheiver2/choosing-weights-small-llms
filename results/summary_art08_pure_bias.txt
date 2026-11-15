@@ -1,0 +1,9 @@
+seed 0, B=1000 within-task bootstrap of validation, same draw order as analyze.py
+full-validation macro by t: 0.0:0.4953, 0.1:0.4928, 0.2:0.4945, 0.3:0.4953, 0.4:0.4953, 0.5:0.4936, 0.6:0.4853, 0.7:0.4961, 0.8:0.4953, 0.9:0.4928, 1.0:0.4853
+pure selection bias, level V_b(t_hat) - V(t_hat): mean +0.68 pp (MC-SE 0.05); 2.5-97.5% of resamples [-2.09, +3.59]; P(>0)=0.67
+pure selection bias, gain (V_b(t_hat)-V_b(0)) - (V(t_hat)-V(0)): mean +0.68 pp (MC-SE 0.02); 2.5-97.5% of resamples [+0.00, +2.09]; P(>0)=0.82
+validation-gain of selected t on the resample, V_b(t_hat)-V_b(0): mean +0.64 pp (MC-SE 0.02); 2.5-97.5% of resamples [+0.00, +2.00]; P(>0)=0.82
+true full-validation gain of selected t, V(t_hat)-V(0): mean -0.03 pp (MC-SE 0.00); 2.5-97.5% of resamples [-0.25, +0.08]; P(>0)=0.17
+fixed-test gain of selected t, A(t_hat)-A(0): mean +0.17 pp (MC-SE 0.01); 2.5-97.5% of resamples [-0.41, +0.65]; P(>0)=0.53
+full-validation gain of t=0.7: +0.08 pp; test gain of t=0.7: +0.65 pp
+shift term: mean[V(t_hat)-V(0)] - mean[A(t_hat)-A(0)] = -0.20 pp

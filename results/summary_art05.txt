@@ -1,0 +1,2 @@
+busca por grupos de camadas: início t=0.7, final [0, 0.75, 0.7, 0.7]; val 0.5045 vs t* global val 0.4961 (ganho val +0.83 pp); n avaliações=21
+  test camadas: 0.5129; vs t* global: +0.39 pp [-0.38, +1.15] p=0.311; vs melhor original: +1.04 pp [+0.20, +1.93] p=0.017

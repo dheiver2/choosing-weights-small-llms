@@ -1,0 +1,5 @@
+n_val=30/tarefa: regret médio 0.50 pp [0.00,1.06]; P(escolhido supera os dois originais no teste)=0.33
+n_val=60/tarefa: regret médio 0.53 pp [0.00,1.06]; P(escolhido supera os dois originais no teste)=0.31
+n_val=100/tarefa: regret médio 0.51 pp [0.00,1.06]; P(escolhido supera os dois originais no teste)=0.36
+n_val=200/tarefa: regret médio 0.50 pp [0.00,1.06]; P(escolhido supera os dois originais no teste)=0.37
+n_val=300/tarefa: regret médio 0.00 pp [0.00,0.00]; P(escolhido supera os dois originais no teste)=1.00

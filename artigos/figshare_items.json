@@ -1,0 +1,62 @@
+{
+ "01": {
+  "id": 35013979,
+  "title": "Validation-Selected Linear Interpolation Between Qwen2.5-0.5B Base and Instruct: Does It Beat Both Parents on ARC, HellaSwag and WinoGrande?",
+  "reserved_doi": "10.6084/m9.figshare.35013979",
+  "published": true
+ },
+ "02": {
+  "id": 35013982,
+  "title": "SLERP versus LERP for Merging Qwen2.5-0.5B Base and Instruct: A Paired Comparison on ARC, HellaSwag, and WinoGrande",
+  "reserved_doi": "10.6084/m9.figshare.35013982",
+  "published": true
+ },
+ "03": {
+  "id": 35013988,
+  "title": "Extrapolating the Instruct Task Vector of Qwen2.5-0.5B: Scaling \u03bb Beyond 1 Under Validation-Selected Coefficients on ARC, HellaSwag, and WinoGrande",
+  "reserved_doi": "10.6084/m9.figshare.35013988",
+  "published": true
+ },
+ "04": {
+  "id": 35013991,
+  "title": "Merging Qwen2.5-0.5B-Instruct with Qwen2.5-Coder-0.5B-Instruct: Weighted Sums, TIES and DARE Fall Below Both Parents, and the Coder Task Vector Is 13 Times Larger",
+  "reserved_doi": "10.6084/m9.figshare.35013991",
+  "published": true
+ },
+ "05": {
+  "id": 35013997,
+  "title": "Layer-Group Coefficient Search for Qwen2.5-0.5B Merging: A Null Test of Layer-Group Search",
+  "reserved_doi": "10.6084/m9.figshare.35013997",
+  "published": true
+ },
+ "06": {
+  "id": 35014000,
+  "title": "Replicating Validation-Selected Weight Interpolation on SmolLM2-360M Base and Instruct: ARC, HellaSwag and WinoGrande",
+  "reserved_doi": "10.6084/m9.figshare.35014000",
+  "published": true
+ },
+ "07": {
+  "id": 35014003,
+  "title": "Averaging the Last Checkpoints of Pythia-160M: No Difference Larger Than 0.008 Nats From the Best Single Checkpoint, WikiText-2 NLL in fp32",
+  "reserved_doi": "10.6084/m9.figshare.35014003",
+  "published": true
+ },
+ "08": {
+  "id": 35014006,
+  "title": "Winner's Curse in Validation-Selected Model Merges: A Resampling Study on the Qwen2.5-0.5B Interpolation Grid (ARC, HellaSwag, WinoGrande)",
+  "reserved_doi": "10.6084/m9.figshare.35014006",
+  "published": true
+ },
+ "09": {
+  "id": 35014009,
+  "title": "How Many Validation Items Does Merge-Coefficient Selection Need? Selection Regret on Qwen2.5-0.5B Interpolations (ARC, HellaSwag, WinoGrande)",
+  "reserved_doi": "10.6084/m9.figshare.35014009",
+  "published": true
+ },
+ "10": {
+  "id": 35014015,
+  "title": "The Language-Modeling Cost Along the Base-to-Instruct Weight Interpolation Path of Qwen2.5-0.5B: WikiText-2 NLL versus ARC, HellaSwag and WinoGrande",
+  "reserved_doi": "10.6084/m9.figshare.35014015",
+  "published": true
+ }
+}

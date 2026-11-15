@@ -1,0 +1,583 @@
+{
+ "1902.10811": {
+  "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+  "authors": [
+   "Benjamin Recht",
+   "Rebecca Roelofs",
+   "Ludwig Schmidt",
+   "Vaishaal Shankar"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "We build new test sets for the CIFAR-10 and ImageNet datasets. Both benchmarks have been the focus of intense research for almost a decade, raising the danger of overfitting to excessively re-used test sets. By closely following the original dataset creation processes, we test to what extent current classification models generalize to new data. We evaluate a broad range of models and find accuracy drops of 3% - 15% on CIFAR-10 and 11% - 14% on ImageNet. However, accuracy gains on the original test sets translate to larger gains on the new test sets. Our results suggest that the accuracy drops are not caused by adaptivity, but by the models' inability to generalize to slightly \"harder\" images than those found in the original test sets."
+ },
+ "1411.2664": {
+  "title": "Preserving Statistical Validity in Adaptive Data Analysis",
+  "authors": [
+   "Cynthia Dwork",
+   "Vitaly Feldman",
+   "Moritz Hardt",
+   "Toniann Pitassi",
+   "Omer Reingold",
+   "Aaron Roth"
+  ],
+  "year": "2014",
+  "journal_ref": "",
+  "comment": "Updated related work with recent developments",
+  "summary": "A great deal of effort has been devoted to reducing the risk of spurious scientific discoveries, from the use of sophisticated validation techniques, to deep statistical methods for controlling the false discovery rate in multiple hypothesis testing. However, there is a fundamental disconnect between the theoretical results and the practice of data analysis: the theory of statistical inference assumes a fixed collection of hypotheses to be tested, or learning algorithms to be applied, selected non-adaptively before the data are gathered, whereas in practice data is shared and reused with hypotheses and new analyses being generated on the basis of data exploration and the outcomes of previous analyses. In this work we initiate a principled study of how to guarantee the validity of statistical inference in adaptive data analysis. As an instance of this problem, we propose and investigate the question of estimating the expectations of $m$ adaptively chosen functions on an unknown distribution given $n$ random samples. We show that, surprisingly, there is a way to estimate an exponential in $n$ number of expectations accurately even if the functions are chosen adaptively. This gives an exponential improvement over standard empirical estimators that are limited to a linear number of estimates. Our result follows from a general technique that counter-intuitively involves actively perturbing and coordinating the estimates, using techniques developed for privacy preservation. We give additional applications of this technique to our question."
+ },
+ "1912.05671": {
+  "title": "Linear Mode Connectivity and the Lottery Ticket Hypothesis",
+  "authors": [
+   "Jonathan Frankle",
+   "Gintare Karolina Dziugaite",
+   "Daniel M. Roy",
+   "Michael Carbin"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": "Published in ICML 2020. This submission subsumes arXiv:1903.01611 (\"Stabilizing the Lottery Ticket Hypothesis\" and \"The Lottery Ticket Hypothesis at Scale\")",
+  "summary": "We study whether a neural network optimizes to the same, linearly connected minimum under different samples of SGD noise (e.g., random data order and augmentation). We find that standard vision models become stable to SGD noise in this way early in training. From then on, the outcome of optimization is determined to a linearly connected region. We use this technique to study iterative magnitude pruning (IMP), the procedure used by work on the lottery ticket hypothesis to identify subnetworks that could have trained in isolation to full accuracy. We find that these subnetworks only reach full accuracy when they are stable to SGD noise, which either occurs at initialization for small-scale settings (MNIST) or early in training for large-scale settings (ResNet-50 and Inception-v3 on ImageNet)."
+ },
+ "2111.09832": {
+  "title": "Merging Models with Fisher-Weighted Averaging",
+  "authors": [
+   "Michael Matena",
+   "Colin Raffel"
+  ],
+  "year": "2021",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "Averaging the parameters of models that have the same architecture and initialization can provide a means of combining their respective capabilities. In this paper, we take the perspective that this \"merging\" operation can be seen as choosing parameters that approximately maximize the joint likelihood of the posteriors of the models' parameters. Computing a simple average of the models' parameters therefore corresponds to making an isotropic Gaussian approximation to their posteriors. We develop an alternative merging procedure based on the Laplace approximation where we approximate each model's posterior as a Gaussian distribution whose precision matrix corresponds to its Fisher information. We first show that our \"Fisher merging\" technique provides a performance boost in settings where simple parameter averaging is currently used -- specifically, robust fine-tuning and model ensembling. Then, we compare merging to standard gradient-based transfer learning and demonstrate that merging enables a fundamentally different method for transferring capabilities across models. Specifically, we show that Fisher merging is competitive with gradient-based transfer learning approaches (while being significantly cheaper) in intermediate-task training and domain-adaptive pre-training. We also show that our merging procedure makes it possible to combine models in previously unexplored ways. We release our code to facilitate future research into methods for merging models."
+ },
+ "2109.01903": {
+  "title": "Robust fine-tuning of zero-shot models",
+  "authors": [
+   "Mitchell Wortsman",
+   "Gabriel Ilharco",
+   "Jong Wook Kim",
+   "Mike Li",
+   "Simon Kornblith",
+   "Rebecca Roelofs",
+   "Raphael Gontijo-Lopes",
+   "Hannaneh Hajishirzi",
+   "Ali Farhadi",
+   "Hongseok Namkoong",
+   "Ludwig Schmidt"
+  ],
+  "year": "2021",
+  "journal_ref": "",
+  "comment": "CVPR 2022",
+  "summary": "Large pre-trained models such as CLIP or ALIGN offer consistent accuracy across a range of data distributions when performing zero-shot inference (i.e., without fine-tuning on a specific dataset). Although existing fine-tuning methods substantially improve accuracy on a given target distribution, they often reduce robustness to distribution shifts. We address this tension by introducing a simple and effective method for improving robustness while fine-tuning: ensembling the weights of the zero-shot and fine-tuned models (WiSE-FT). Compared to standard fine-tuning, WiSE-FT provides large accuracy improvements under distribution shift, while preserving high accuracy on the target distribution. On ImageNet and five derived distribution shifts, WiSE-FT improves accuracy under distribution shift by 4 to 6 percentage points (pp) over prior work while increasing ImageNet accuracy by 1.6 pp. WiSE-FT achieves similarly large robustness gains (2 to 23 pp) on a diverse set of six further distribution shifts, and accuracy gains of 0.8 to 3.3 pp compared to standard fine-tuning on seven commonly used transfer learning datasets. These improvements come at no additional computational cost during fine-tuning or inference."
+ },
+ "1803.05457": {
+  "title": "Think you have Solved Question Answering? Try ARC, the AI2 Reasoning Challenge",
+  "authors": [
+   "Peter Clark",
+   "Isaac Cowhey",
+   "Oren Etzioni",
+   "Tushar Khot",
+   "Ashish Sabharwal",
+   "Carissa Schoenick",
+   "Oyvind Tafjord"
+  ],
+  "year": "2018",
+  "journal_ref": "",
+  "comment": "10 pages, 7 tables, 2 figures",
+  "summary": "We present a new question set, text corpus, and baselines assembled to encourage AI research in advanced question answering. Together, these constitute the AI2 Reasoning Challenge (ARC), which requires far more powerful knowledge and reasoning than previous challenges such as SQuAD or SNLI. The ARC question set is partitioned into a Challenge Set and an Easy Set, where the Challenge Set contains only questions answered incorrectly by both a retrieval-based algorithm and a word co-occurence algorithm. The dataset contains only natural, grade-school science questions (authored for human tests), and is the largest public-domain set of this kind (7,787 questions). We test several baselines on the Challenge Set, including leading neural models from the SQuAD and SNLI tasks, and find that none are able to significantly outperform a random baseline, reflecting the difficult nature of this task. We are also releasing the ARC Corpus, a corpus of 14M science sentences relevant to the task, and implementations of the three neural baseline models tested. Can your model perform better? We pose ARC as a challenge to the community."
+ },
+ "1905.07830": {
+  "title": "HellaSwag: Can a Machine Really Finish Your Sentence?",
+  "authors": [
+   "Rowan Zellers",
+   "Ari Holtzman",
+   "Yonatan Bisk",
+   "Ali Farhadi",
+   "Yejin Choi"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": "ACL 2019. Project page at https://rowanzellers.com/hellaswag",
+  "summary": "Recent work by Zellers et al. (2018) introduced a new task of commonsense natural language inference: given an event description such as \"A woman sits at a piano,\" a machine must select the most likely followup: \"She sets her fingers on the keys.\" With the introduction of BERT, near human-level performance was reached. Does this mean that machines can perform human level commonsense inference? In this paper, we show that commonsense inference still proves difficult for even state-of-the-art models, by presenting HellaSwag, a new challenge dataset. Though its questions are trivial for humans (>95% accuracy), state-of-the-art models struggle (<48%). We achieve this via Adversarial Filtering (AF), a data collection paradigm wherein a series of discriminators iteratively select an adversarial set of machine-generated wrong answers. AF proves to be surprisingly robust. The key insight is to scale up the length and complexity of the dataset examples towards a critical 'Goldilocks' zone wherein generated text is ridiculous to humans, yet often misclassified by state-of-the-art models. Our construction of HellaSwag, and its resulting difficulty, sheds light on the inner workings of deep pretrained models. More broadly, it suggests a new path forward for NLP research, in which benchmarks co-evolve with the evolving state-of-the-art in an adversarial way, so as to present ever-harder challenges."
+ },
+ "1907.10641": {
+  "title": "WinoGrande: An Adversarial Winograd Schema Challenge at Scale",
+  "authors": [
+   "Keisuke Sakaguchi",
+   "Ronan Le Bras",
+   "Chandra Bhagavatula",
+   "Yejin Choi"
+  ],
+  "year": "2019",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "The Winograd Schema Challenge (WSC) (Levesque, Davis, and Morgenstern 2011), a benchmark for commonsense reasoning, is a set of 273 expert-crafted pronoun resolution problems originally designed to be unsolvable for statistical models that rely on selectional preferences or word associations. However, recent advances in neural language models have already reached around 90% accuracy on variants of WSC. This raises an important question whether these models have truly acquired robust commonsense capabilities or whether they rely on spurious biases in the datasets that lead to an overestimation of the true capabilities of machine commonsense. To investigate this question, we introduce WinoGrande, a large-scale dataset of 44k problems, inspired by the original WSC design, but adjusted to improve both the scale and the hardness of the dataset. The key steps of the dataset construction consist of (1) a carefully designed crowdsourcing procedure, followed by (2) systematic bias reduction using a novel AfLite algorithm that generalizes human-detectable word associations to machine-detectable embedding associations. The best state-of-the-art methods on WinoGrande achieve 59.4-79.1%, which are 15-35% below human performance of 94.0%, depending on the amount of the training data allowed. Furthermore, we establish new state-of-the-art results on five related benchmarks - WSC (90.1%), DPR (93.1%), COPA (90.6%), KnowRef (85.6%), and Winogender (97.1%). These results have dual implications: on one hand, they demonstrate the effectiveness of WinoGrande when used as a resource for transfer learning. On the other hand, they raise a concern that we are likely to be overestimating the true capabilities of machine commonsense across all these benchmarks. We emphasize the importance of algorithmic bias reduction in existing and future benchmarks to mitigate such overestimation."
+ },
+ "1609.07843": {
+  "title": "Pointer Sentinel Mixture Models",
+  "authors": [
+   "Stephen Merity",
+   "Caiming Xiong",
+   "James Bradbury",
+   "Richard Socher"
+  ],
+  "year": "2016",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "Recent neural network sequence models with softmax classifiers have achieved their best language modeling performance only with very large hidden states and large vocabularies. Even then they struggle to predict rare or unseen words even if the context makes the prediction unambiguous. We introduce the pointer sentinel mixture architecture for neural sequence models which has the ability to either reproduce a word from the recent context or produce a word from a standard softmax classifier. Our pointer sentinel-LSTM model achieves state of the art language modeling performance on the Penn Treebank (70.9 perplexity) while using far fewer parameters than a standard softmax LSTM. In order to evaluate how well language models can exploit longer contexts and deal with more realistic vocabularies and larger corpora we also introduce the freely available WikiText corpus."
+ },
+ "1803.05407": {
+  "title": "Averaging Weights Leads to Wider Optima and Better Generalization",
+  "authors": [
+   "Pavel Izmailov",
+   "Dmitrii Podoprikhin",
+   "Timur Garipov",
+   "Dmitry Vetrov",
+   "Andrew Gordon Wilson"
+  ],
+  "year": "2018",
+  "journal_ref": "",
+  "comment": "Appears at the Conference on Uncertainty in Artificial Intelligence (UAI), 2018",
+  "summary": "Deep neural networks are typically trained by optimizing a loss function with an SGD variant, in conjunction with a decaying learning rate, until convergence. We show that simple averaging of multiple points along the trajectory of SGD, with a cyclical or constant learning rate, leads to better generalization than conventional training. We also show that this Stochastic Weight Averaging (SWA) procedure finds much flatter solutions than SGD, and approximates the recent Fast Geometric Ensembling (FGE) approach with a single model. Using SWA we achieve notable improvement in test accuracy over conventional SGD training on a range of state-of-the-art residual networks, PyramidNets, DenseNets, and Shake-Shake networks on CIFAR-10, CIFAR-100, and ImageNet. In short, SWA is extremely easy to implement, improves generalization, and has almost no computational overhead."
+ },
+ "2304.01373": {
+  "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+  "authors": [
+   "Stella Biderman",
+   "Hailey Schoelkopf",
+   "Quentin Anthony",
+   "Herbie Bradley",
+   "Kyle O'Brien",
+   "Eric Hallahan",
+   "Mohammad Aflah Khan",
+   "Shivanshu Purohit",
+   "USVSN Sai Prashanth",
+   "Edward Raff",
+   "Aviya Skowron",
+   "Lintang Sutawika",
+   "Oskar van der Wal"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "Code at https://github.com/EleutherAI/pythia",
+  "summary": "How do large language models (LLMs) develop and evolve over the course of training? How do these patterns change as models scale? To answer these questions, we introduce \\textit{Pythia}, a suite of 16 LLMs all trained on public data seen in the exact same order and ranging in size from 70M to 12B parameters. We provide public access to 154 checkpoints for each one of the 16 models, alongside tools to download and reconstruct their exact training dataloaders for further study. We intend \\textit{Pythia} to facilitate research in many areas, and we present several case studies including novel results in memorization, term frequency effects on few-shot performance, and reducing gender bias. We demonstrate that this highly controlled setup can be used to yield novel insights toward LLMs and their training dynamics. Trained models, analysis code, training code, and training data can be found at \\url{https://github.com/EleutherAI/pythia}."
+ },
+ "2306.03241": {
+  "title": "Early Weight Averaging meets High Learning Rates for LLM Pre-training",
+  "authors": [
+   "Sunny Sanyal",
+   "Atula Neerkaje",
+   "Jean Kaddour",
+   "Abhishek Kumar",
+   "Sujay Sanghavi"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "17 pages, 13 figures, presented at NeurIPs 2023 WANT workshop",
+  "summary": "Training Large Language Models (LLMs) incurs significant cost; hence, any strategy that accelerates model convergence is helpful. In this paper, we investigate the ability of a simple idea checkpoint averaging along the trajectory of a training run to improve both convergence and generalization quite early on during training. Here we show that models trained with high learning rates observe higher gains due to checkpoint averaging. Furthermore, these gains are amplified when checkpoints are sampled with considerable spacing in training steps. Our training recipe outperforms conventional training and popular checkpoint averaging baselines such as exponential moving average (EMA) and stochastic moving average (SWA). We evaluate our training recipe by pre-training LLMs, where high learning rates are inherently preferred due to extremely large batch sizes. Specifically, we pre-trained nanoGPT-2 models of varying sizes, small (125M), medium (335M), and large (770M)on the OpenWebText dataset, comprised of 9B tokens. Additionally, we present results for publicly available Pythia LLMs, ranging from 1B to 12B, which were trained on the PILE-deduped dataset containing 207B tokens."
+ },
+ "2306.01708": {
+  "title": "TIES-Merging: Resolving Interference When Merging Models",
+  "authors": [
+   "Prateek Yadav",
+   "Derek Tam",
+   "Leshem Choshen",
+   "Colin Raffel",
+   "Mohit Bansal"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "Published at NeurIPS 2023, 23 Pages, 13 Figures, 14 Tables",
+  "summary": "Transfer learning - i.e., further fine-tuning a pre-trained model on a downstream task - can confer significant advantages, including improved downstream performance, faster convergence, and better sample efficiency. These advantages have led to a proliferation of task-specific fine-tuned models, which typically can only perform a single task and do not benefit from one another. Recently, model merging techniques have emerged as a solution to combine multiple task-specific models into a single multitask model without performing additional training. However, existing merging methods often ignore the interference between parameters of different models, resulting in large performance drops when merging multiple models. In this paper, we demonstrate that prior merging techniques inadvertently lose valuable information due to two major sources of interference: (a) interference due to redundant parameter values and (b) disagreement on the sign of a given parameter's values across models. To address this, we propose our method, TRIM, ELECT SIGN & MERGE (TIES-Merging), which introduces three novel steps when merging models: (1) resetting parameters that only changed a small amount during fine-tuning, (2) resolving sign conflicts, and (3) merging only the parameters that are in alignment with the final agreed-upon sign. We find that TIES-Merging outperforms several existing methods in diverse settings covering a range of modalities, domains, number of tasks, model sizes, architectures, and fine-tuning settings. We further analyze the impact of different types of interference on model parameters, and highlight the importance of resolving sign interference. Our code is available at https://github.com/prateeky2806/ties-merging"
+ },
+ "2212.10445": {
+  "title": "Model Ratatouille: Recycling Diverse Models for Out-of-Distribution Generalization",
+  "authors": [
+   "Alexandre Ramé",
+   "Kartik Ahuja",
+   "Jianyu Zhang",
+   "Matthieu Cord",
+   "Léon Bottou",
+   "David Lopez-Paz"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": "24 pages, 10 tables, 21 figures",
+  "summary": "Foundation models are redefining how AI systems are built. Practitioners now follow a standard procedure to build their machine learning solutions: from a pre-trained foundation model, they fine-tune the weights on the target task of interest. So, the Internet is swarmed by a handful of foundation models fine-tuned on many diverse tasks: these individual fine-tunings exist in isolation without benefiting from each other. In our opinion, this is a missed opportunity, as these specialized models contain rich and diverse features. In this paper, we thus propose model ratatouille, a new strategy to recycle the multiple fine-tunings of the same foundation model on diverse auxiliary tasks. Specifically, we repurpose these auxiliary weights as initializations for multiple parallel fine-tunings on the target task; then, we average all fine-tuned weights to obtain the final model. This recycling strategy aims at maximizing the diversity in weights by leveraging the diversity in auxiliary tasks. Empirically, it improves the state of the art on the reference DomainBed benchmark for out-of-distribution generalization. Looking forward, this work contributes to the emerging paradigm of updatable machine learning where, akin to open-source software development, the community collaborates to reliably update machine learning models. Our code is released: https://github.com/facebookresearch/ModelRatatouille."
+ },
+ "2306.04488": {
+  "title": "Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards",
+  "authors": [
+   "Alexandre Ramé",
+   "Guillaume Couairon",
+   "Mustafa Shukor",
+   "Corentin Dancette",
+   "Jean-Baptiste Gaya",
+   "Laure Soulier",
+   "Matthieu Cord"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "Foundation models are first pre-trained on vast unsupervised datasets and then fine-tuned on labeled data. Reinforcement learning, notably from human feedback (RLHF), can further align the network with the intended usage. Yet the imperfections in the proxy reward may hinder the training and lead to suboptimal results; the diversity of objectives in real-world tasks and human opinions exacerbate the issue. This paper proposes embracing the heterogeneity of diverse rewards by following a multi-policy strategy. Rather than focusing on a single a priori reward, we aim for Pareto-optimal generalization across the entire space of preferences. To this end, we propose rewarded soup, first specializing multiple networks independently (one for each proxy reward) and then interpolating their weights linearly. This succeeds empirically because we show that the weights remain linearly connected when fine-tuned on diverse rewards from a shared pre-trained initialization. We demonstrate the effectiveness of our approach for text-to-text (summarization, Q&A, helpful assistant, review), text-image (image captioning, text-to-image generation, visual grounding, VQA), and control (locomotion) tasks. We hope to enhance the alignment of deep models, and how they interact with the world in all its diversity."
+ },
+ "2209.04836": {
+  "title": "Git Re-Basin: Merging Models modulo Permutation Symmetries",
+  "authors": [
+   "Samuel K. Ainsworth",
+   "Jonathan Hayase",
+   "Siddhartha Srinivasa"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "The success of deep learning is due in large part to our ability to solve certain massive non-convex optimization problems with relative ease. Though non-convex optimization is NP-hard, simple algorithms -- often variants of stochastic gradient descent -- exhibit surprising effectiveness in fitting large neural networks in practice. We argue that neural network loss landscapes often contain (nearly) a single basin after accounting for all possible permutation symmetries of hidden units a la Entezari et al. 2021. We introduce three algorithms to permute the units of one model to bring them into alignment with a reference model in order to merge the two models in weight space. This transformation produces a functionally equivalent set of weights that lie in an approximately convex basin near the reference model. Experimentally, we demonstrate the single basin phenomenon across a variety of model architectures and datasets, including the first (to our knowledge) demonstration of zero-barrier linear mode connectivity between independently trained ResNet models on CIFAR-10. Additionally, we identify intriguing phenomena relating model width and training time to mode connectivity. Finally, we discuss shortcomings of the linear mode connectivity hypothesis, including a counterexample to the single basin theory."
+ },
+ "2212.09849": {
+  "title": "Dataless Knowledge Fusion by Merging Weights of Language Models",
+  "authors": [
+   "Xisen Jin",
+   "Xiang Ren",
+   "Daniel Preotiuc-Pietro",
+   "Pengxiang Cheng"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": "ICLR 2023; The code is available at https://github.com/bloomberg/dataless-model-merging and https://github.com/AuCson/RegMean-LLama3-8B. Fixed typos",
+  "summary": "Fine-tuning pre-trained language models has become the prevalent paradigm for building downstream NLP models. Oftentimes fine-tuned models are readily available but their training data is not, due to data privacy or intellectual property concerns. This creates a barrier to fusing knowledge across individual models to yield a better single model. In this paper, we study the problem of merging individual models built on different training data sets to obtain a single model that performs well both across all data set domains and can generalize on out-of-domain data. We propose a dataless knowledge fusion method that merges models in their parameter space, guided by weights that minimize prediction differences between the merged model and the individual models. Over a battery of evaluation settings, we show that the proposed method significantly outperforms baselines such as Fisher-weighted averaging or model ensembling. Further, we find that our method is a promising alternative to multi-task learning that can preserve or sometimes improve over the individual models without access to the training data. Finally, model merging is more efficient than training a multi-task model, thus making it applicable to a wider set of scenarios."
+ },
+ "2212.04089": {
+  "title": "Editing Models with Task Arithmetic",
+  "authors": [
+   "Gabriel Ilharco",
+   "Marco Tulio Ribeiro",
+   "Mitchell Wortsman",
+   "Suchin Gururangan",
+   "Ludwig Schmidt",
+   "Hannaneh Hajishirzi",
+   "Ali Farhadi"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": "In Proceedings of the 11th International Conference on Learning Representations (ICLR 2023)",
+  "summary": "Changing how pre-trained models behave -- e.g., improving their performance on a downstream task or mitigating biases learned during pre-training -- is a common practice when developing machine learning systems. In this work, we propose a new paradigm for steering the behavior of neural networks, centered around \\textit{task vectors}. A task vector specifies a direction in the weight space of a pre-trained model, such that movement in that direction improves performance on the task. We build task vectors by subtracting the weights of a pre-trained model from the weights of the same model after fine-tuning on a task. We show that these task vectors can be modified and combined together through arithmetic operations such as negation and addition, and the behavior of the resulting model is steered accordingly. Negating a task vector decreases performance on the target task, with little change in model behavior on control tasks. Moreover, adding task vectors together can improve performance on multiple tasks at once. Finally, when tasks are linked by an analogy relationship of the form ``A is to B as C is to D\", combining task vectors from three of the tasks can improve performance on the fourth, even when no data from the fourth task is used for training. Overall, our experiments with several models, modalities and tasks show that task arithmetic is a simple, efficient and effective way of editing models."
+ },
+ "2203.05482": {
+  "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+  "authors": [
+   "Mitchell Wortsman",
+   "Gabriel Ilharco",
+   "Samir Yitzhak Gadre",
+   "Rebecca Roelofs",
+   "Raphael Gontijo-Lopes",
+   "Ari S. Morcos",
+   "Hongseok Namkoong",
+   "Ali Farhadi",
+   "Yair Carmon",
+   "Simon Kornblith",
+   "Ludwig Schmidt"
+  ],
+  "year": "2022",
+  "journal_ref": "",
+  "comment": "ICML 2022. The last three authors contributed equally",
+  "summary": "The conventional recipe for maximizing model accuracy is to (1) train multiple models with various hyperparameters and (2) pick the individual model which performs best on a held-out validation set, discarding the remainder. In this paper, we revisit the second step of this procedure in the context of fine-tuning large pre-trained models, where fine-tuned models often appear to lie in a single low error basin. We show that averaging the weights of multiple models fine-tuned with different hyperparameter configurations often improves accuracy and robustness. Unlike a conventional ensemble, we may average many models without incurring any additional inference or memory costs -- we call the results \"model soups.\" When fine-tuning large pre-trained models such as CLIP, ALIGN, and a ViT-G pre-trained on JFT, our soup recipe provides significant improvements over the best model in a hyperparameter sweep on ImageNet. The resulting ViT-G model, which attains 90.94% top-1 accuracy on ImageNet, achieved a new state of the art. Furthermore, we show that the model soup approach extends to multiple image classification and natural language processing tasks, improves out-of-distribution performance, and improves zero-shot performance on new downstream tasks. Finally, we analytically relate the performance similarity of weight-averaging and logit-ensembling to flatness of the loss and confidence of the predictions, and validate this relation empirically. Code is available at https://github.com/mlfoundations/model-soups."
+ },
+ "2305.12827": {
+  "title": "Task Arithmetic in the Tangent Space: Improved Editing of Pre-Trained Models",
+  "authors": [
+   "Guillermo Ortiz-Jimenez",
+   "Alessandro Favero",
+   "Pascal Frossard"
+  ],
+  "year": "2023",
+  "journal_ref": "Advances in Neural Information Processing Systems 36 (NeurIPS 2023)",
+  "comment": "",
+  "summary": "Task arithmetic has recently emerged as a cost-effective and scalable approach to edit pre-trained models directly in weight space: By adding the fine-tuned weights of different tasks, the model's performance can be improved on these tasks, while negating them leads to task forgetting. Yet, our understanding of the effectiveness of task arithmetic and its underlying principles remains limited. We present a comprehensive study of task arithmetic in vision-language models and show that weight disentanglement is the crucial factor that makes it effective. This property arises during pre-training and manifests when distinct directions in weight space govern separate, localized regions in function space associated with the tasks. Notably, we show that fine-tuning models in their tangent space by linearizing them amplifies weight disentanglement. This leads to substantial performance improvements across multiple task arithmetic benchmarks and diverse models. Building on these findings, we provide theoretical and empirical analyses of the neural tangent kernel (NTK) of these models and establish a compelling link between task arithmetic and the spatial localization of the NTK eigenfunctions. Overall, our work uncovers novel insights into the fundamental mechanisms of task arithmetic and offers a more reliable and effective approach to edit pre-trained models through the NTK linearization."
+ },
+ "2310.02575": {
+  "title": "AdaMerging: Adaptive Model Merging for Multi-Task Learning",
+  "authors": [
+   "Enneng Yang",
+   "Zhenyi Wang",
+   "Li Shen",
+   "Shiwei Liu",
+   "Guibing Guo",
+   "Xingwei Wang",
+   "Dacheng Tao"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "International Conference on Learning Representations (ICLR 2024)",
+  "summary": "Multi-task learning (MTL) aims to empower a model to tackle multiple tasks simultaneously. A recent development known as task arithmetic has revealed that several models, each fine-tuned for distinct tasks, can be directly merged into a single model to execute MTL without necessitating a retraining process using the initial training data. Nevertheless, this direct addition of models often leads to a significant deterioration in the overall performance of the merged model. This decline occurs due to potential conflicts and intricate correlations among the multiple tasks. Consequently, the challenge emerges of how to merge pre-trained models more effectively without using their original training data. This paper introduces an innovative technique called Adaptive Model Merging (AdaMerging). This approach aims to autonomously learn the coefficients for model merging, either in a task-wise or layer-wise manner, without relying on the original training data. Specifically, our AdaMerging method operates as an automatic, unsupervised task arithmetic scheme. It leverages entropy minimization on unlabeled test samples from the multi-task setup as a surrogate objective function to iteratively refine the merging coefficients of the multiple models. Our experimental findings across eight tasks demonstrate the efficacy of the AdaMerging scheme we put forth. Compared to the current state-of-the-art task arithmetic merging scheme, AdaMerging showcases a remarkable 11\\% improvement in performance. Notably, AdaMerging also exhibits superior generalization capabilities when applied to unseen downstream tasks. Furthermore, it displays a significantly enhanced robustness to data distribution shifts that may occur during the testing phase."
+ },
+ "2310.04799": {
+  "title": "Chat Vector: A Simple Approach to Equip LLMs with Instruction Following and Model Alignment in New Languages",
+  "authors": [
+   "Shih-Cheng Huang",
+   "Pin-Zu Li",
+   "Yu-Chi Hsu",
+   "Kuang-Ming Chen",
+   "Yu Tung Lin",
+   "Shih-Kai Hsiao",
+   "Richard Tzong-Han Tsai",
+   "Hung-yi Lee"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "ACL 2024 camera-ready version",
+  "summary": "Recently, the development of open-source large language models (LLMs) has advanced rapidly. Nevertheless, due to data constraints, the capabilities of most open-source LLMs are primarily focused on English. To address this issue, we introduce the concept of $\\textit{chat vector}$ to equip pre-trained language models with instruction following and human value alignment via simple model arithmetic. The chat vector is derived by subtracting the weights of a pre-trained base model (e.g. LLaMA2) from those of its corresponding chat model (e.g. LLaMA2-chat). By simply adding the chat vector to a continual pre-trained model's weights, we can endow the model with chat capabilities in new languages without the need for further training. Our empirical studies demonstrate the superior efficacy of the chat vector from three different aspects: instruction following, toxicity mitigation, and multi-turn dialogue. Moreover, to showcase the adaptability of our approach, we extend our experiments to encompass various languages, base models, and chat vectors. The results underscore the chat vector's simplicity, effectiveness, and wide applicability, making it a compelling solution for efficiently enabling conversational capabilities in pre-trained language models. Our code is available at https://github.com/aqweteddy/ChatVector."
+ },
+ "2408.07666": {
+  "title": "Model Merging in LLMs, MLLMs, and Beyond: Methods, Theories, Applications and Opportunities",
+  "authors": [
+   "Enneng Yang",
+   "Li Shen",
+   "Guibing Guo",
+   "Xingwei Wang",
+   "Xiaochun Cao",
+   "Jie Zhang",
+   "Dacheng Tao"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "Model merging is an efficient empowerment technique in the machine learning community that does not require the collection of raw training data and does not require expensive computation. As model merging becomes increasingly prevalent across various fields, it is crucial to understand the available model merging techniques comprehensively. However, there is a significant gap in the literature regarding a systematic and thorough review of these techniques. This survey provides a comprehensive overview of model merging methods and theories, their applications in various domains and settings, and future research directions. Specifically, we first propose a new taxonomic approach that exhaustively discusses existing model merging methods. Secondly, we discuss the application of model merging techniques in large language models, multimodal large language models, and more than ten machine learning subfields, including continual learning, multi-task learning, few-shot learning, etc. Finally, we highlight the remaining challenges of model merging and discuss future research directions. A comprehensive list of papers about model merging is available at https://github.com/EnnengYang/Awesome-Model-Merging-Methods-Theories-Applications."
+ },
+ "2309.15698": {
+  "title": "Deep Model Fusion: A Survey",
+  "authors": [
+   "Weishi Li",
+   "Yong Peng",
+   "Miao Zhang",
+   "Liang Ding",
+   "Han Hu",
+   "Li Shen"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "46 pages",
+  "summary": "Deep model fusion/merging is an emerging technique that merges the parameters or predictions of multiple deep learning models into a single one. It combines the abilities of different models to make up for the biases and errors of a single model to achieve better performance. However, deep model fusion on large-scale deep learning models (e.g., LLMs and foundation models) faces several challenges, including high computational cost, high-dimensional parameter space, interference between different heterogeneous models, etc. Although model fusion has attracted widespread attention due to its potential to solve complex real-world tasks, there is still a lack of complete and detailed survey research on this technique. Accordingly, in order to understand the model fusion method better and promote its development, we present a comprehensive survey to summarize the recent progress. Specifically, we categorize existing deep model fusion methods as four-fold: (1) \"Mode connectivity\", which connects the solutions in weight space via a path of non-increasing loss, in order to obtain better initialization for model fusion; (2) \"Alignment\" matches units between neural networks to create better conditions for fusion; (3) \"Weight average\", a classical model fusion method, averages the weights of multiple models to obtain more accurate results closer to the optimal solution; (4) \"Ensemble learning\" combines the outputs of diverse models, which is a foundational technique for improving the accuracy and robustness of the final model. In addition, we analyze the challenges faced by deep model fusion and propose possible research directions for model fusion in the future. Our review is helpful in deeply understanding the correlation between different model fusion methods and practical application methods, which can enlighten the research in the field of deep model fusion."
+ },
+ "2307.13269": {
+  "title": "LoraHub: Efficient Cross-Task Generalization via Dynamic LoRA Composition",
+  "authors": [
+   "Chengsong Huang",
+   "Qian Liu",
+   "Bill Yuchen Lin",
+   "Tianyu Pang",
+   "Chao Du",
+   "Min Lin"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "COLM 2024",
+  "summary": "Low-rank adaptations (LoRA) are often employed to fine-tune large language models (LLMs) for new tasks. This paper investigates LoRA composability for cross-task generalization and introduces LoraHub, a simple framework devised for the purposive assembly of LoRA modules trained on diverse given tasks, with the objective of achieving adaptable performance on unseen tasks. With just a few examples from a new task, LoraHub can fluidly combine multiple LoRA modules, eliminating the need for human expertise and assumptions. Notably, the composition requires neither additional model parameters nor gradients. Empirical results on the Big-Bench Hard benchmark suggest that LoraHub, while not surpassing the performance of in-context learning, offers a notable performance-efficiency trade-off in few-shot scenarios by employing a significantly reduced number of tokens per example during inference. Notably, LoraHub establishes a better upper bound compared to in-context learning when paired with different demonstration examples, demonstrating its potential for future development. Our vision is to establish a platform for LoRA modules, empowering users to share their trained LoRA modules. This collaborative approach facilitates the seamless application of LoRA modules to novel tasks, contributing to an adaptive ecosystem. Our code is available at https://github.com/sail-sg/lorahub, and all the pre-trained LoRA modules are released at https://huggingface.co/lorahub."
+ },
+ "2403.19390": {
+  "title": "Checkpoint Merging via Bayesian Optimization in LLM Pretraining",
+  "authors": [
+   "Deyuan Liu",
+   "Zecheng Wang",
+   "Bingning Wang",
+   "Weipeng Chen",
+   "Chunshan Li",
+   "Zhiying Tu",
+   "Dianhui Chu",
+   "Bo Li",
+   "Dianbo Sui"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "The rapid proliferation of large language models (LLMs) such as GPT-4 and Gemini underscores the intense demand for resources during their training processes, posing significant challenges due to substantial computational and environmental costs. To alleviate this issue, we propose checkpoint merging in pretraining LLM. This method utilizes LLM checkpoints with shared training trajectories, and is rooted in an extensive search space exploration for the best merging weight via Bayesian optimization. Through various experiments, we demonstrate that: (1) Our proposed methodology exhibits the capacity to augment pretraining, presenting an opportunity akin to obtaining substantial benefits at minimal cost; (2) Our proposed methodology, despite requiring a given held-out dataset, still demonstrates robust generalization capabilities across diverse domains, a pivotal aspect in pretraining."
+ },
+ "2403.13257": {
+  "title": "Arcee's MergeKit: A Toolkit for Merging Large Language Models",
+  "authors": [
+   "Charles Goddard",
+   "Shamane Siriwardhana",
+   "Malikeh Ehghaghi",
+   "Luke Meyers",
+   "Vlad Karpukhin",
+   "Brian Benedict",
+   "Mark McQuade",
+   "Jacob Solawetz"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "11 pages, 4 figures",
+  "summary": "The rapid expansion of the open-source language model landscape presents an opportunity to merge the competencies of these model checkpoints by combining their parameters. Advances in transfer learning, the process of fine-tuning pretrained models for specific tasks, has resulted in the development of vast amounts of task-specific models, typically specialized in individual tasks and unable to utilize each other's strengths. Model merging facilitates the creation of multitask models without the need for additional training, offering a promising avenue for enhancing model performance and versatility. By preserving the intrinsic capabilities of the original models, model merging addresses complex challenges in AI - including the difficulties of catastrophic forgetting and multitask learning. To support this expanding area of research, we introduce MergeKit, a comprehensive, open-source library designed to facilitate the application of model merging strategies. MergeKit offers an extensible framework to efficiently merge models on any hardware, providing utility to researchers and practitioners. To date, thousands of models have been merged by the open-source community, leading to the creation of some of the worlds most powerful open-source model checkpoints, as assessed by the Open LLM Leaderboard. The library is accessible at https://github.com/arcee-ai/MergeKit."
+ },
+ "2409.12186": {
+  "title": "Qwen2.5-Coder Technical Report",
+  "authors": [
+   "Binyuan Hui",
+   "Jian Yang",
+   "Zeyu Cui",
+   "Jiaxi Yang",
+   "Dayiheng Liu",
+   "Lei Zhang",
+   "Tianyu Liu",
+   "Jiajun Zhang",
+   "Bowen Yu",
+   "Keming Lu",
+   "Kai Dang",
+   "Yang Fan",
+   "Yichang Zhang",
+   "An Yang",
+   "Rui Men",
+   "Fei Huang",
+   "Bo Zheng",
+   "Yibo Miao",
+   "Shanghaoran Quan",
+   "Yunlong Feng",
+   "Xingzhang Ren",
+   "Xuancheng Ren",
+   "Jingren Zhou",
+   "Junyang Lin"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "In this report, we introduce the Qwen2.5-Coder series, a significant upgrade from its predecessor, CodeQwen1.5. This series includes six models: Qwen2.5-Coder-(0.5B/1.5B/3B/7B/14B/32B). As a code-specific model, Qwen2.5-Coder is built upon the Qwen2.5 architecture and continues pretrained on a vast corpus of over 5.5 trillion tokens. Through meticulous data cleaning, scalable synthetic data generation, and balanced data mixing, Qwen2.5-Coder demonstrates impressive code generation capabilities while retaining general and math skills. These models have been evaluated on a wide range of code-related tasks, achieving state-of-the-art (SOTA) performance across more than 10 benchmarks, including code generation, completion, reasoning, and repair, consistently outperforming larger models of the same model size. We believe that the release of the Qwen2.5-Coder series will advance research in code intelligence and, with its permissive licensing, support wider adoption by developers in real-world applications."
+ },
+ "2311.03099": {
+  "title": "Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch",
+  "authors": [
+   "Le Yu",
+   "Bowen Yu",
+   "Haiyang Yu",
+   "Fei Huang",
+   "Yongbin Li"
+  ],
+  "year": "2023",
+  "journal_ref": "",
+  "comment": "Accepted at ICML 2024",
+  "summary": "In this paper, we unveil that Language Models (LMs) can acquire new capabilities by assimilating parameters from homologous models without retraining or GPUs. We first introduce DARE to set most delta parameters (i.e., the disparity between fine-tuned and pre-trained parameters) to zeros without affecting the abilities of Supervised Fine-Tuning (SFT) LMs, which randomly Drops delta parameters with a ratio $p$ And REscales the remaining ones by $1 / (1 - p)$ to approximate the original embeddings. Then, we use DARE as a versatile plug-in to sparsify delta parameters of multiple SFT homologous models for mitigating parameter interference and merge them into a single model by parameter fusing. We experiment with encoder- and decoder-based LMs, showing that: (1) SFT delta parameter value ranges are typically small (within 0.002) with extreme redundancy, and DARE can effortlessly eliminate 90% or even 99% of them; (2) DARE can merge multiple task-specific LMs into one LM with diverse capabilities. Notably, this phenomenon is more pronounced in large-scale LMs, where the merged LM reveals the potential to surpass the performance of any source LM, providing a new discovery. We also utilize DARE to create a merged LM that ranks first among models with 7 billion parameters on the Open LLM Leaderboard."
+ },
+ "2403.13187": {
+  "title": "Evolutionary Optimization of Model Merging Recipes",
+  "authors": [
+   "Takuya Akiba",
+   "Makoto Shing",
+   "Yujin Tang",
+   "Qi Sun",
+   "David Ha"
+  ],
+  "year": "2024",
+  "journal_ref": "Nat Mach Intell (2025)",
+  "comment": "Authors' submitted version before final edits. Published in Nature Machine Intelligence on January 27, 2025: https://www.nature.com/articles/s42256-024-00975-8",
+  "summary": "Large language models (LLMs) have become increasingly capable, but their development often requires substantial computational resources. While model merging has emerged as a cost-effective promising approach for creating new models by combining existing ones, it currently relies on human intuition and domain knowledge, limiting its potential. Here, we propose an evolutionary approach that overcomes this limitation by automatically discovering effective combinations of diverse open-source models, harnessing their collective intelligence without requiring extensive additional training data or compute. Our approach operates in both parameter space and data flow space, allowing for optimization beyond just the weights of the individual models. This approach even facilitates cross-domain merging, generating models like a Japanese LLM with Math reasoning capabilities. Surprisingly, our Japanese Math LLM achieved state-of-the-art performance on a variety of established Japanese LLM benchmarks, even surpassing models with significantly more parameters, despite not being explicitly trained for such tasks. Furthermore, a culturally-aware Japanese VLM generated through our approach demonstrates its effectiveness in describing Japanese culture-specific content, outperforming previous Japanese VLMs. This work not only contributes new state-of-the-art models back to the open-source community, but also introduces a new paradigm for automated model composition, paving the way for exploring alternative, efficient approaches to foundation model development."
+ },
+ "2502.02737": {
+  "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+  "authors": [
+   "Loubna Ben Allal",
+   "Anton Lozhkov",
+   "Elie Bakouch",
+   "Gabriel Martín Blázquez",
+   "Guilherme Penedo",
+   "Lewis Tunstall",
+   "Andrés Marafioti",
+   "Hynek Kydlíček",
+   "Agustín Piqueres Lajarín",
+   "Vaibhav Srivastav",
+   "Joshua Lochner",
+   "Caleb Fahlgren",
+   "Xuan-Son Nguyen",
+   "Clémentine Fourrier",
+   "Ben Burtenshaw",
+   "Hugo Larcher",
+   "Haojun Zhao",
+   "Cyril Zakka",
+   "Mathieu Morlon",
+   "Colin Raffel",
+   "Leandro von Werra",
+   "Thomas Wolf"
+  ],
+  "year": "2025",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "While large language models have facilitated breakthroughs in many applications of artificial intelligence, their inherent largeness makes them computationally expensive and challenging to deploy in resource-constrained settings. In this paper, we document the development of SmolLM2, a state-of-the-art \"small\" (1.7 billion parameter) language model (LM). To attain strong performance, we overtrain SmolLM2 on ~11 trillion tokens of data using a multi-stage training process that mixes web text with specialized math, code, and instruction-following data. We additionally introduce new specialized datasets (FineMath, Stack-Edu, and SmolTalk) at stages where we found existing datasets to be problematically small or low-quality. To inform our design decisions, we perform both small-scale ablations as well as a manual refinement process that updates the dataset mixing rates at each stage based on the performance at the previous stage. Ultimately, we demonstrate that SmolLM2 outperforms other recent small LMs including Qwen2.5-1.5B and Llama3.2-1B. To facilitate future research on LM development as well as applications of small LMs, we release both SmolLM2 as well as all of the datasets we prepared in the course of this project."
+ },
+ "2410.03617": {
+  "title": "What Matters for Model Merging at Scale?",
+  "authors": [
+   "Prateek Yadav",
+   "Tu Vu",
+   "Jonathan Lai",
+   "Alexandra Chronopoulou",
+   "Manaal Faruqui",
+   "Mohit Bansal",
+   "Tsendsuren Munkhdalai"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "20 Pages, 7 Figures, 4 Tables",
+  "summary": "Model merging aims to combine multiple expert models into a more capable single model, offering benefits such as reduced storage and serving costs, improved generalization, and support for decentralized model development. Despite its promise, previous studies have primarily focused on merging a few small models. This leaves many unanswered questions about the effect of scaling model size and how it interplays with other key factors -- like the base model quality and number of expert models -- , to affect the merged model's performance. This work systematically evaluates the utility of model merging at scale, examining the impact of these different factors. We experiment with merging fully fine-tuned models using 4 popular merging methods -- Averaging, Task~Arithmetic, Dare, and TIES -- across model sizes ranging from 1B-64B parameters and merging up to 8 different expert models. We evaluate the merged models on both held-in tasks, i.e., the expert's training tasks, and zero-shot generalization to unseen held-out tasks. Our experiments provide several new insights about model merging at scale and the interplay between different factors. First, we find that merging is more effective when experts are created from strong base models, i.e., models with good zero-shot performance. Second, larger models facilitate easier merging. Third merging consistently improves generalization capabilities. Notably, when merging 8 large expert models, the merged models often generalize better compared to the multitask trained models. Fourth, we can better merge more expert models when working with larger models. Fifth, different merging methods behave very similarly at larger scales. Overall, our findings shed light on some interesting properties of model merging while also highlighting some limitations. We hope that this study will serve as a reference point on large-scale merging for upcoming research."
+ },
+ "2411.00640": {
+  "title": "Adding Error Bars to Evals: A Statistical Approach to Language Model Evaluations",
+  "authors": [
+   "Evan Miller"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "14 pages",
+  "summary": "Evaluations are critical for understanding the capabilities of large language models (LLMs). Fundamentally, evaluations are experiments; but the literature on evaluations has largely ignored the literature from other sciences on experiment analysis and planning. This article shows researchers with some training in statistics how to think about and analyze data from language model evaluations. Conceptualizing evaluation questions as having been drawn from an unseen super-population, we present formulas for analyzing evaluation data, measuring differences between two models, and planning an evaluation experiment. We make a number of specific recommendations for running language model evaluations and reporting experiment results in a way that minimizes statistical noise and maximizes informativeness."
+ },
+ "2412.15115": {
+  "title": "Qwen2.5 Technical Report",
+  "authors": [
+   " Qwen",
+   " :",
+   "An Yang",
+   "Baosong Yang",
+   "Beichen Zhang",
+   "Binyuan Hui",
+   "Bo Zheng",
+   "Bowen Yu",
+   "Chengyuan Li",
+   "Dayiheng Liu",
+   "Fei Huang",
+   "Haoran Wei",
+   "Huan Lin",
+   "Jian Yang",
+   "Jianhong Tu",
+   "Jianwei Zhang",
+   "Jianxin Yang",
+   "Jiaxi Yang",
+   "Jingren Zhou",
+   "Junyang Lin",
+   "Kai Dang",
+   "Keming Lu",
+   "Keqin Bao",
+   "Kexin Yang",
+   "Le Yu",
+   "Mei Li",
+   "Mingfeng Xue",
+   "Pei Zhang",
+   "Qin Zhu",
+   "Rui Men",
+   "Runji Lin",
+   "Tianhao Li",
+   "Tianyi Tang",
+   "Tingyu Xia",
+   "Xingzhang Ren",
+   "Xuancheng Ren",
+   "Yang Fan",
+   "Yang Su",
+   "Yichang Zhang",
+   "Yu Wan",
+   "Yuqiong Liu",
+   "Zeyu Cui",
+   "Zhenru Zhang",
+   "Zihan Qiu"
+  ],
+  "year": "2024",
+  "journal_ref": "",
+  "comment": "",
+  "summary": "In this report, we introduce Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs. Compared to previous iterations, Qwen 2.5 has been significantly improved during both the pre-training and post-training stages. In terms of pre-training, we have scaled the high-quality pre-training datasets from the previous 7 trillion tokens to 18 trillion tokens. This provides a strong foundation for common sense, expert knowledge, and reasoning capabilities. In terms of post-training, we implement intricate supervised finetuning with over 1 million samples, as well as multistage reinforcement learning. Post-training techniques enhance human preference, and notably improve long text generation, structural data analysis, and instruction following. To handle diverse and varied use cases effectively, we present Qwen2.5 LLM series in rich sizes. Open-weight offerings include base and instruction-tuned models, with quantized versions available. In addition, for hosted solutions, the proprietary models currently include two mixture-of-experts (MoE) variants: Qwen2.5-Turbo and Qwen2.5-Plus, both available from Alibaba Cloud Model Studio. Qwen2.5 has demonstrated top-tier performance on a wide range of benchmarks evaluating language understanding, reasoning, mathematics, coding, human preference alignment, etc. Specifically, the open-weight flagship Qwen2.5-72B-Instruct outperforms a number of open and proprietary models and demonstrates competitive performance to the state-of-the-art open-weight model, Llama-3-405B-Instruct, which is around 5 times larger. Qwen2.5-Turbo and Qwen2.5-Plus offer superior cost-effectiveness while performing competitively against GPT-4o-mini and GPT-4o respectively. Additionally, as the foundation, Qwen2.5 models have been instrumental in training specialized models such as Qwen2.5-Math, Qwen2.5-Coder, QwQ, and multimodal models."
+ }
+}

@@ -1,0 +1,12 @@
+SmolLM2 LERP: val macro por t: 0.0:0.5403, 0.2:0.5420, 0.4:0.5412, 0.6:0.5303, 0.8:0.5220, 1.0:0.4861
+  test t=0.0: 0.5540 [0.5389,0.5695]
+  test t=0.2: 0.5586 [0.5433,0.5745]
+  test t=0.4: 0.5581 [0.5433,0.5738]
+  test t=0.6: 0.5454 [0.5301,0.5614]
+  test t=0.8: 0.5248 [0.5100,0.5408]
+  test t=1.0: 0.4977 [0.4820,0.5139]
+  melhor original na validação: t=0.0; t* da validação: t=0.2
+  t* vs melhor original (teste, pareado): +0.46 pp [-0.10, +1.02] p=0.113
+  t* vs t=0.0: +0.46 pp [-0.10, +1.02] p=0.113
+  t* vs t=1.0: +6.09 pp [+4.83, +7.30] p=0.000
+  (oráculo no teste, não usável: t=0.2 0.5586; vs melhor original +0.46 pp [-0.10, +1.02] p=0.113)

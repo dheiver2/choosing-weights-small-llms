@@ -1,0 +1,8 @@
+t=0.4: fração de elementos IDÊNTICOS após o cast para bf16 (SLERP vs LERP): 0.8998
+t=0.4: distância L2 relativa em bf16: 8.75e-04
+t=0.6: fração de elementos IDÊNTICOS após o cast para bf16 (SLERP vs LERP): 0.8991
+t=0.6: distância L2 relativa em bf16: 8.78e-04
+fp32 val macro LERP t=0.4: 0.4945
+fp32 val macro SLERP t=0.4: 0.4945
+fp32 val macro LERP t=0.6: 0.4953
+fp32 val macro SLERP t=0.6: 0.4936

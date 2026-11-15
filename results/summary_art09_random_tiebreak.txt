@@ -1,0 +1,24 @@
+full pool (n=300): validation macro max 0.4961; tied at max (t): ['0.7']
+test regret by t (pp): 0.0:0.65, 0.1:0.70, 0.2:1.06, 0.3:0.89, 0.4:0.61, 0.5:0.68, 0.6:0.03, 0.7:0.00, 0.8:0.16, 0.9:0.07, 1.0:0.25
+seed 0 (subsets, same order as analyze.py), seed 3 (random tie-break); 1000 draws per n, without replacement
+n=30: unrounded mean regret argmax 0.502, random tie-break 0.470, difference 0.032
+n=30: P_win argmax 0.33, P_win random tie-break 0.38; argmax != smallest tied t (tolerance 1e-12) in 65/1000 draws
+n=30: draws with a tie at the max: 41.5%
+  argmax (analyze.py):   mean regret 0.50 (sd 0.33, MC-SE 0.01), P(regret=0)=0.10; chose t=0: 198/1000, t=0.2: 72/1000, t=0.7: 102/1000
+  random tie-break:   mean regret 0.47 (sd 0.35, MC-SE 0.01), P(regret=0)=0.11; chose t=0: 135/1000, t=0.2: 87/1000, t=0.7: 111/1000
+n=60: unrounded mean regret argmax 0.525, random tie-break 0.504, difference 0.021
+n=60: P_win argmax 0.31, P_win random tie-break 0.35; argmax != smallest tied t (tolerance 1e-12) in 56/1000 draws
+n=60: draws with a tie at the max: 33.7%
+  argmax (analyze.py):   mean regret 0.53 (sd 0.34, MC-SE 0.01), P(regret=0)=0.12; chose t=0: 240/1000, t=0.2: 93/1000, t=0.7: 120/1000
+  random tie-break:   mean regret 0.50 (sd 0.35, MC-SE 0.01), P(regret=0)=0.12; chose t=0: 194/1000, t=0.2: 99/1000, t=0.7: 120/1000
+n=100: unrounded mean regret argmax 0.508, random tie-break 0.476, difference 0.031
+n=100: P_win argmax 0.36, P_win random tie-break 0.41; argmax != smallest tied t (tolerance 1e-12) in 34/1000 draws
+n=100: draws with a tie at the max: 24.8%
+  argmax (analyze.py):   mean regret 0.51 (sd 0.36, MC-SE 0.01), P(regret=0)=0.15; chose t=0: 200/1000, t=0.2: 112/1000, t=0.7: 150/1000
+  random tie-break:   mean regret 0.48 (sd 0.36, MC-SE 0.01), P(regret=0)=0.17; chose t=0: 161/1000, t=0.2: 100/1000, t=0.7: 166/1000
+n=200: unrounded mean regret argmax 0.497, random tie-break 0.475, difference 0.022
+n=200: P_win argmax 0.37, P_win random tie-break 0.40; argmax != smallest tied t (tolerance 1e-12) in 56/1000 draws
+n=200: draws with a tie at the max: 28.4%
+  argmax (analyze.py):   mean regret 0.50 (sd 0.36, MC-SE 0.01), P(regret=0)=0.20; chose t=0: 226/1000, t=0.2: 99/1000, t=0.7: 198/1000
+  random tie-break:   mean regret 0.47 (sd 0.36, MC-SE 0.01), P(regret=0)=0.20; chose t=0: 201/1000, t=0.2: 81/1000, t=0.7: 204/1000
+reference: random t regret 0.46 pp

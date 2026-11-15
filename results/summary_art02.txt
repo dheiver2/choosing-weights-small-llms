@@ -1,0 +1,6 @@
+SLERP-LERP t=0.2: teste 0.5007 vs 0.4983; +0.24 pp [-0.23, +0.71] p=0.318
+SLERP-LERP t=0.4: teste 0.5064 vs 0.5029; +0.35 pp [-0.15, +0.83] p=0.158
+SLERP-LERP t=0.6: teste 0.5094 vs 0.5087; +0.07 pp [-0.41, +0.61] p=0.778
+SLERP-LERP t=0.8: teste 0.5064 vs 0.5074; -0.10 pp [-0.52, +0.32] p=0.654
+val SLERP: 0.2:0.4953, 0.4:0.4978, 0.6:0.4895, 0.8:0.4920
+SLERP t* (val)=0.4: vs melhor original (base/instruct escolhido na val): +0.40 pp [-0.29, +1.09] p=0.262

@@ -1,0 +1,14 @@
+fp32 qwen LERP t=0.0: NLL val 2.8032 test 2.8517
+fp32 qwen LERP t=0.1: NLL val 2.8037 test 2.8526
+fp32 qwen LERP t=0.2: NLL val 2.8057 test 2.8548
+fp32 qwen LERP t=0.3: NLL val 2.8093 test 2.8585
+fp32 qwen LERP t=0.4: NLL val 2.8146 test 2.8639
+fp32 qwen LERP t=0.5: NLL val 2.8218 test 2.8710
+fp32 qwen LERP t=0.6: NLL val 2.8312 test 2.8801
+fp32 qwen LERP t=0.7: NLL val 2.8429 test 2.8912
+fp32 qwen LERP t=0.8: NLL val 2.8571 test 2.9046
+fp32 qwen LERP t=0.9: NLL val 2.8743 test 2.9205
+fp32 qwen LERP t=1.0: NLL val 2.8947 test 2.9394
+fp32 qwen LERP t=0.0: val macro 0.4886 (166s)
+fp32 qwen LERP t=0.7: val macro 0.4920 (355s)
+fp32 qwen LERP t=1.0: val macro 0.4845 (437s)

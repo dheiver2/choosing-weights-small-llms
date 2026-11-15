@@ -1,0 +1,21 @@
+A7 consecutive k=2 - k=1 (test, per block): -0.0591 [-0.0725, -0.0461]
+A7 consecutive k=3 - k=2 (test, per block): -0.0401 [-0.0523, -0.0276]
+A7 consecutive k=4 - k=3 (test, per block): -0.0272 [-0.0410, -0.0135]
+A7 consecutive k=5 - k=4 (test, per block): -0.0398 [-0.0557, -0.0243]
+A7 consecutive k=6 - k=5 (test, per block): -0.2829 [-0.2952, -0.2702]
+A7 k=1 test blocks: mean 4.6074 sd 0.2546 min 3.9113 max 5.1747
+A7 k=5 test blocks: mean 4.4412 sd 0.2729 min 3.7448 max 5.0048
+A7 k=6 test blocks: mean 4.1583 sd 0.2592 min 3.5005 max 4.6892
+A7 k=6 vs k=1: fraction of test blocks with lower NLL = 1.00
+A10 NLL t=0.1 - t=0 (test, per block): -0.0008 [-0.0018, +0.0001]
+A10 NLL t=0.2 - t=0 (test, per block): +0.0016 [+0.0004, +0.0028]
+A10 NLL t=0.3 - t=0 (test, per block): +0.0051 [+0.0036, +0.0066]
+A10 NLL t=0.4 - t=0 (test, per block): +0.0115 [+0.0097, +0.0135]
+A10 NLL t=0.5 - t=0 (test, per block): +0.0185 [+0.0162, +0.0209]
+A10 NLL t=0.6 - t=0 (test, per block): +0.0289 [+0.0258, +0.0319]
+A10 NLL t=0.7 - t=0 (test, per block): +0.0398 [+0.0364, +0.0432]
+A10 NLL t=0.8 - t=0 (test, per block): +0.0524 [+0.0483, +0.0564]
+A10 NLL t=0.9 - t=0 (test, per block): +0.0686 [+0.0640, +0.0729]
+A10 NLL t=1.0 - t=0 (test, per block): +0.0886 [+0.0831, +0.0939]
+A10 macro accuracy t=0.7 - t=0 (test, paired by item): +0.65 pp [-0.22, +1.51] p=0.147
+A10 macro accuracy t=1.0 - t=0 (test, paired by item): +0.40 pp [-0.62, +1.40] p=0.452

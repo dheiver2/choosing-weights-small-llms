@@ -1,0 +1,24 @@
+angle (rad): {"n_tensors": 290, "median": 0.05047576810757595, "mean": 0.04280050257486643, "p95": 0.08891516677514212, "max": 0.11045510988271073, "elem_weighted_mean": 0.08541432167200731, "median_deg": 2.8920484802451445, "max_deg": 6.328611621933074}
+SLERP vs LERP weight gap: {"0.2": {"global_rel": 0.00029223501272651213, "max_tensor_rel": 0.0009721290971687709}, "0.4": {"global_rel": 0.000438041761669185, "max_tensor_rel": 0.001463506669568858}, "0.6": {"global_rel": 0.0004376909931440577, "max_tensor_rel": 0.0014681204677985291}, "0.8": {"global_rel": 0.00029153354412727196, "max_tensor_rel": 0.0009813391880525292}}
+SLERP-LERP test t=0.2: +0.24 pp [-0.23, +0.71] p=0.318  SLERP=0.5007 LERP=0.4983
+   val SLERP=0.4953 LERP=0.4945
+SLERP-LERP test t=0.4: +0.35 pp [-0.15, +0.83] p=0.158  SLERP=0.5064 LERP=0.5029
+   val SLERP=0.4978 LERP=0.4953
+SLERP-LERP test t=0.6: +0.07 pp [-0.41, +0.61] p=0.778  SLERP=0.5094 LERP=0.5087
+   val SLERP=0.4895 LERP=0.4853
+SLERP-LERP test t=0.8: -0.10 pp [-0.52, +0.32] p=0.654  SLERP=0.5064 LERP=0.5074
+   val SLERP=0.4920 LERP=0.4953
+mean SLERP-LERP over 4 t (test): +0.14 pp [-0.09, +0.39] p=0.228
+orig: {"base_test": 0.5024508790072388, "inst_test": 0.5064338159255429, "base_val": 0.49530100334448157, "inst_val": 0.4852898550724638}
+t*=0.4 SLERP vs base: +0.40 pp [-0.29, +1.09] p=0.262; vs instruct: -0.00 pp [-0.84, +0.85] p=1.000; LERP0.4 vs base: +0.04 pp [-0.67, +0.76] p=0.919
+lambda=0.0: val=0.4953 test=0.5025 test-inst -0.40 pp [-1.41, +0.62] p=0.441 | val-inst +1.00 pp [-0.92, +2.75] p=0.291
+lambda=0.5: val=0.4936 test=0.5021 test-inst -0.43 pp [-1.25, +0.39] p=0.288 | val-inst +0.83 pp [-0.58, +2.17] p=0.251
+lambda=0.75: val=0.4895 test=0.5069 test-inst +0.05 pp [-0.58, +0.71] p=0.889 | val-inst +0.42 pp [-0.75, +1.58] p=0.519
+lambda=1.0: val=0.4853 test=0.5064 test-inst +0.00 pp [+0.00, +0.00] p=1.000 | val-inst +0.00 pp [+0.00, +0.00] p=1.000
+lambda=1.25: val=0.4903 test=0.5032 test-inst -0.32 pp [-0.91, +0.31] p=0.315 | val-inst +0.50 pp [-0.42, +1.50] p=0.319
+lambda=1.5: val=0.4911 test=0.4986 test-inst -0.78 pp [-1.60, +0.06] p=0.070 | val-inst +0.58 pp [-0.75, +2.00] p=0.393
+lambda=2.0: val=0.4644 test=0.4836 test-inst -2.28 pp [-3.35, -1.16] p=0.000 | val-inst -2.08 pp [-4.00, -0.08] p=0.045
+0.75 vs base (explor.): +0.45 pp [-0.46, +1.30] p=0.321
+lambda=1.25 vs lambda=1 (test): -0.32 pp [-0.91, +0.31] p=0.315; vs base: +0.08 pp [-1.01, +1.17] p=0.893
+lambda=1.5 vs lambda=1 (test): -0.78 pp [-1.60, +0.06] p=0.070; vs base: -0.38 pp [-1.54, +0.82] p=0.525
+lambda=2.0 vs lambda=1 (test): -2.28 pp [-3.35, -1.16] p=0.000; vs base: -1.88 pp [-3.17, -0.56] p=0.005

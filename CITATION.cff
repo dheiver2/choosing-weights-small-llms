@@ -1,0 +1,131 @@
+cff-version: 1.2.0
+message: "If you use this code, data caches or any of the ten preprints, please cite the collection and, when relevant, the specific paper."
+type: software
+title: "Choosing the Weights of Small Open Language Models: code, per-item evaluation caches and ten preprints"
+authors:
+  - family-names: Santos
+    given-names: Dheiver Francisco
+    orcid: "https://orcid.org/0000-0002-8599-9436"
+version: "1.0.0"
+date-released: "2026-11-15"
+license: MIT
+repository-code: "https://github.com/dheiver2/choosing-weights-small-llms"
+url: "https://doi.org/10.6084/m9.figshare.c.8840665"
+keywords:
+  - model merging
+  - weight interpolation
+  - small language models
+  - negative results
+  - reproducibility
+preferred-citation:
+  type: collection
+  authors:
+    - family-names: Santos
+      given-names: Dheiver Francisco
+      orcid: "https://orcid.org/0000-0002-8599-9436"
+  title: "Choosing the Weights of Small Open Language Models: Ten Preprints"
+  year: 2026
+  publisher:
+    name: Figshare
+  doi: "10.6084/m9.figshare.c.8840665"
+references:
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Validation-Selected Linear Interpolation Between Qwen2.5-0.5B Base and Instruct: Does It Beat Both Parents on ARC, HellaSwag and WinoGrande?"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35013979"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "SLERP versus LERP for Merging Qwen2.5-0.5B Base and Instruct: A Paired Comparison on ARC, HellaSwag, and WinoGrande"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35013982"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Extrapolating the Instruct Task Vector of Qwen2.5-0.5B: Scaling λ Beyond 1 Under Validation-Selected Coefficients on ARC, HellaSwag, and WinoGrande"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35013988"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Merging Qwen2.5-0.5B-Instruct with Qwen2.5-Coder-0.5B-Instruct: Weighted Sums, TIES and DARE Fall Below Both Parents, and the Coder Task Vector Is 13 Times Larger"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35013991"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Layer-Group Coefficient Search for Qwen2.5-0.5B Merging: A Null Test of Layer-Group Search"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35013997"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Replicating Validation-Selected Weight Interpolation on SmolLM2-360M Base and Instruct: ARC, HellaSwag and WinoGrande"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35014000"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Averaging the Last Checkpoints of Pythia-160M: No Difference Larger Than 0.008 Nats From the Best Single Checkpoint, WikiText-2 NLL in fp32"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35014003"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "Winner's Curse in Validation-Selected Model Merges: A Resampling Study on the Qwen2.5-0.5B Interpolation Grid (ARC, HellaSwag, WinoGrande)"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35014006"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "How Many Validation Items Does Merge-Coefficient Selection Need? Selection Regret on Qwen2.5-0.5B Interpolations (ARC, HellaSwag, WinoGrande)"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35014009"
+  - type: report
+    authors:
+      - family-names: Santos
+        given-names: Dheiver Francisco
+        orcid: "https://orcid.org/0000-0002-8599-9436"
+    title: "The Language-Modeling Cost Along the Base-to-Instruct Weight Interpolation Path of Qwen2.5-0.5B: WikiText-2 NLL versus ARC, HellaSwag and WinoGrande"
+    year: 2026
+    publisher:
+      name: Figshare
+    doi: "10.6084/m9.figshare.35014015"
