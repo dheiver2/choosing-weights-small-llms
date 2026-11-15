@@ -4,7 +4,9 @@ Code, per-item evaluation caches and ten preprints on choosing and combining the
 
 Every paper states a pre-registered question (`experiments/PREREG.md`), selects configurations on a validation split and reports them on disjoint test items, and uses paired bootstrap intervals. **Most results are null or negative and are reported as such.** One paper (7) reports a correction: an apparent gain from checkpoint averaging came from evaluating an fp16-trained model in bfloat16.
 
-Collection DOI: [10.6084/m9.figshare.c.8840665](https://doi.org/10.6084/m9.figshare.c.8840665) · Author: Dheiver Francisco Santos, PhD ([ORCID 0000-0002-8599-9436](https://orcid.org/0000-0002-8599-9436)) · Papers: CC BY 4.0 · Code: MIT
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24248379.svg)](https://doi.org/10.5281/zenodo.24248379)
+
+Software DOI (all versions): [10.5281/zenodo.24248379](https://doi.org/10.5281/zenodo.24248379) · Collection DOI: [10.6084/m9.figshare.c.8840665](https://doi.org/10.6084/m9.figshare.c.8840665) · Author: Dheiver Francisco Santos, PhD ([ORCID 0000-0002-8599-9436](https://orcid.org/0000-0002-8599-9436)) · Papers: CC BY 4.0 · Code: MIT
 
 ## The ten papers
 
@@ -24,6 +26,8 @@ Collection DOI: [10.6084/m9.figshare.c.8840665](https://doi.org/10.6084/m9.figsh
 PDFs and LaTeX sources are in `artigos/`. A copy of each paper is also at https://dheiverphd.com/publications/.
 
 ## How to cite
+
+Three identifiers, one body of work: the **software** ([doi:10.5281/zenodo.24248379](https://doi.org/10.5281/zenodo.24248379), Zenodo, every release), the **collection** of the ten papers ([doi:10.6084/m9.figshare.c.8840665](https://doi.org/10.6084/m9.figshare.c.8840665), Figshare) and this repository. Each paper cites the others by DOI.
 
 Please cite the collection, and the specific paper when you use one result. `CITATION.cff` is read by GitHub ("Cite this repository"); `CITATIONS.bib` has BibTeX for the collection and all ten papers.
 

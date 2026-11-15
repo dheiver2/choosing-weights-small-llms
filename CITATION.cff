@@ -7,10 +7,18 @@ authors:
     given-names: Dheiver Francisco
     orcid: "https://orcid.org/0000-0002-8599-9436"
 version: "1.0.0"
+doi: "10.5281/zenodo.24248379"
 date-released: "2026-11-15"
 license: MIT
 repository-code: "https://github.com/dheiver2/choosing-weights-small-llms"
-url: "https://doi.org/10.6084/m9.figshare.c.8840665"
+url: "https://github.com/dheiver2/choosing-weights-small-llms"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24248380"
+    description: "Zenodo archive of release v1.0.0"
+  - type: doi
+    value: "10.6084/m9.figshare.c.8840665"
+    description: "Figshare collection with the ten preprints"
 keywords:
   - model merging
   - weight interpolation
